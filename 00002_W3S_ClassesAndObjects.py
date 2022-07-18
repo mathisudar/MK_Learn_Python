@@ -100,3 +100,26 @@ print(myObject1.age) # 40
 print(myObject1.name) # Mathi
 
 
+
+class Students:
+    def __init__(self,studentName,studentClass,studentAge):
+        self.studentName = studentName
+        self.studentClass = studentClass
+        self.studentAge = studentAge
+        
+    def myFunction(self):
+        print("Student",self.studentName,"of class",self.studentClass,"age, is",self.studentAge)
+        # Student Shakthi of class 7 age, is 12
+
+myObject1 = Students("Shakthi",7,12)        
+ 
+
+   
+myObject1.myFunction()
+print(myObject1.studentName) # Shakthi
+print(myObject1.studentClass) # 7
+print(myObject1.studentAge) # 12
+
+
+
+
