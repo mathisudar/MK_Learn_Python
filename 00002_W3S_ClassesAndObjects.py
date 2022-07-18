@@ -83,6 +83,20 @@ print(p1.age) # AttributeError: 'Person5' object has no attribute 'age'
 
 
 
+class Person:
+    def __init__(self,age,name):
+        self.age = age
+        self.name = name
+        
+    def myFunc(self):
+        print("My name is ",self.name,"and my age is",self.age)
+        
+myObject1 = Person(40, "Mathi")
 
+
+
+myObject1.myFunc() # My name is  Mathi and my age is 40
+print(myObject1.age) # 40
+print(myObject1.name) # Mathi
 
 
