@@ -20,3 +20,7 @@ C:\MATHI\VSCode\04_PYTHON\000_W3_Schools\000-005\01_VARIABLES>python 000_variabl
 John
 
 C:\MATHI\VSCode\04_PYTHON\000_W3_Schools\000-005\01_VARIABLES>
+
+
+# Use Run Python File option from VS Code
+
