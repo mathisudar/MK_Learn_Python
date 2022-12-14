@@ -39,5 +39,8 @@ Age: 45
 Gender: M
 Salary: 100000.0
 Age: 45  
+    
+Ref Link --->  https://pynative.com/python-encapsulation/
+    
 *** Result ****  
   
