@@ -27,6 +27,10 @@ print("Gender:",employee1.gender)
 print("Salary:",employee1.get_salary())
 
 
+# Another method to call the private member variable
+print("Age:",employee1._EmployeeDetails__age) # object._className__variableName
+
+
 
 *** Result ****
 
@@ -34,6 +38,6 @@ Name: Mathi
 Age: 45
 Gender: M
 Salary: 100000.0
-  
+Age: 45  
 *** Result ****  
   
